@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro en nuestra tienda</title>
+    
+    <meta name="description" content="Formulario de registro para la tienda." />
+</head>
+<body>
+
+    <!-- Título principal -->
+    <h1>Registro en nuestra tienda</h1>
+
+    <!-- Formulario -->
+    <form action="#" method="post">
+
+        <!-- Campo: Nombre de usuario -->
+        <label for="usuario">Nombre de usuario</label><br />
+        <input type="text" id="usuario" name="usuario" placeholder="Ej: luis" />
+        <br /><br />
+
+        <!-- Campo: Email -->
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" placeholder="Ej: luis@gmail.com" />
+        <br /><br />
+
+        <!-- Campo: Edad -->
+        <label for="edad">Edad:</label><br />
+        <input type="number" id="edad" name="edad" placeholder="Ej: 21" />
+        <br /><br />
+
+        <!-- Campo: Género (Radio buttons) -->
+        <p>Género:</p>
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <label for="masculino">Masculino</label><br />
+        
+        <input type="radio" id="femenino" name="genero" value="femenino" />
+        <label for="femenino">Femenino</label>
+        <br /><br />
+
+        <!-- Campo: Recomendado por (Menú desplegable) -->
+        <label for="recomendado">Recomendado por:</label><br />
+        <select id="recomendado" name="recomendado">
+            <option value="google">Google</option>
+            <option value="facebook">Facebook</option>
+            <option value="amigo">Un amigo</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br /><br />
+
+        <!-- Campo: Comentarios (Área de texto) -->
+        <label for="comentarios">Comentarios:</label><br />
+        <textarea id="comentarios" name="comentarios" rows="4" cols="30"></textarea>
+        <br /><br />
+
+        <!-- Campo: Acepto términos (Checkbox) -->
+        <input type="checkbox" id="terminos" name="terminos" />
+        <label for="terminos">Acepto términos y condiciones:</label>
+        <br /><br />
+
+        <!-- Botón de envío -->
+        <button type="submit">Registrar</button>
+
+    </form>
+
+</body>
+</html>
