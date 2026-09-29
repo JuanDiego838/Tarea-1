@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de Vida - Juan Diego Gallego</title>
+    
+    <meta name="author" content="Juan Diego Gallego Galvis" />
+    <meta name="description" content="Hoja de vida de Juan Diego Gallego Galvis." />
+</head>
+<body>
+
+    <!-- ================= INICIO ================= -->
+    <section id="inicio">
+        <h1 style="font-family: 'Times New Roman', serif; font-style: italic;">Juan Diego Gallego</h1>
+        <hr style="border: 3px solid black; width: 200px; margin-left: 0;" />
+
+        <h1>Hoja de Vida</h1>
+        <h2>Juan Diego Gallego Galvis</h2>
+
+        <!-- Menú de navegación con anclas internas -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+        </ul>
+
+        <!-- Información Personal -->
+        <h2>Información Personal</h2>
+        <img src="C:\Users\Juan Diego\Downloads\foto perfil.jpeg" 
+             alt="Juan Diego Gallego Galvis" 
+             width="350" />
+
+        <ul>
+            <li><strong>Nombres:</strong> Juan Diego</li>
+            <li><strong>Apellidos:</strong> Gallego Galvis</li>
+            <li><strong>Edad:</strong> 23</li>
+        </ul>
+
+        <!-- Información de Perfil -->
+        <h2>Información de Perfil</h2>
+        <ul>
+            <li><strong>Perfil:</strong> Independiente, Camillero, Ingeniero de Sistemas y telecomunicaciones.</li>
+            <li><strong>Idiomas:</strong> Español.</li>
+        </ul>
+
+        <!-- Pie de página -->
+        <p>@Derechos Reservados</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="jdgallegog104636@umanizales.edu.co">jdgallegog104636@umanizales.edu.co</a></li>
+            <li><strong>Teléfono:</strong> 321-394-92-08</li>
+            <li><strong>Dirección:</strong> La floresta 2-manzana 3- casa 62</li>
+        </ul>
+    </section>
+
+    <!-- ================= EDUCACIÓN ================= -->
+    <section id="educacion">
+        <h1>Hoja de Vida</h1>
+        <h2>Juan Diego Gallego Galvis</h2>
+
+        <!-- Menú de navegación -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+        </ul>
+
+        <h2>Educación</h2>
+
+        <!-- Tabla de Educación -->
+        <table border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2014</td>
+                    <td>Eugenio Pacelli</td>
+                    <td>Manizales</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Universidad De Manizales</td>
+                    <td>Manizales</td>
+                    <td>No</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Formulario Agregar Educación -->
+        <h2>Agregar Educación</h2>
+        <form action="#" method="post">
+            <label for="anio">Año:</label>
+            <select id="anio" name="anio">
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+            </select>
+            <br /><br />
+
+            <label for="institucion">Institución:</label>
+            <input type="text" id="institucion" name="institucion" />
+            <br /><br />
+
+            <label for="lugar">Lugar:</label><br />
+            <textarea id="lugar" name="lugar" rows="6" cols="35"></textarea>
+            <br /><br />
+
+            <p>¿Culminó?
+                <input type="radio" id="si" name="culmino" value="si" />
+                <label for="si">Si</label>
+                <input type="radio" id="no" name="culmino" value="no" />
+                <label for="no">No</label>
+            </p>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <!-- Pie de página -->
+        <p>@Derechos Reservados</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="jdgallegog104636@umanizales.edu.co">jdgallegog104636@umanizales.edu.co</a></li>
+            <li><strong>Teléfono:</strong> 321-394-92-08</li>
+            <li><strong>Dirección:</strong> La floresta 2-manzana 3- casa 62</li>
+        </ul>
+    </section>
+
+    <!-- ================= EXPERIENCIA ================= -->
+    <section id="experiencia">
+        <h1>Hoja de Vida</h1>
+        <h2>Bill Gates</h2>
+
+        <!-- Menú de navegación -->
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+        </ul>
+
+        <h2>Experiencia</h2>
+        <hr />
+
+        <!-- Video -->
+        <h3>Video - One Story of Big Project</h3>
+        <video controls width="600">
+            <source src="video.mp4" type="video/mp4" />
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <p>One Story of Big Project - Intro</p>
+
+        <hr />
+
+        <!-- Audio -->
+        <h3>Audio - One Story of Big Project</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg" />
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+        <p>One Story of Big Project - Audio completo</p>
+
+        <!-- Pie de página -->
+        <p>@Derechos Reservados</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="jdgallegog104636@umanizales.edu.co">jdgallegog104636@umanizales.edu.co</a></li>
+            <li><strong>Teléfono:</strong> 321-394-92-08</li>
+            <li><strong>Dirección:</strong> La floresta 2-manzana 3- casa 62</li>
+        </ul>
+    </section>
+
+</body>
+</html>
